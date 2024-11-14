@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@keyframes coracao {
+    0%{
+        background-size: auto;
+    }
+    25%{
+        background-size: 365px;
+    }
+    50%{
+        background-size: auto;
+
+    }
+    75%{
+        background-size: 365px;
+    }
+    100%{
+        background-size: auto;
+    }
+    
+}
+.tela1 {
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #fff, #e6e2e2);
+}
+.escopo1 {
+    margin: 15px auto;
+    width: 1220px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    
+    
+}
+.logo1 img {
+    width: 69px;
+    height: 70px;
+    float: left;
+}
+.logo1 img:hover {
+    width: 74px;
+    height: 75px;
+}
+.hiperlinks {
+    width: 650px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center;
+}
+.hiperlinks a {
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    text-decoration: none;
+    color: #000;
+    font-size: 22px;
+    font-family: "Amatic SC", sans-serif;
+}
+.hiperlinks a:hover {
+    font-size: 23px;
+    border-bottom: 2px solid #46DDE1;
+    font-weight: bold;
+
+}
+.conteudo {
+    display: block;
+}
+.imagem1 img {
+    width: 551px;
+    height: 519px;
+    float: right;
+    float: bottom;
+    margin-top: 32px;
+}
+.title1 {
+    display: inline-block;
+    margin-top: 30px;
+    width: 610px;
+    height: table;
+    margin-left: 139px;
+    text-align: center;
+
+}
+.title1 h1 {
+    color: #a10202;
+    font-size: 30px;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: bold;
+
+}
+.title1 p {
+    font-family: "Roboto", serif;
+    color: #666666;
+    margin: 7px 0;
+    font-size: 17px;
+}
+
+.img_fundo{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 290px;
+    width: 350px;
+    height: 260px;
+    background-image: url("../images/coracao3-removebg-preview.png");
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-position: center;
+    transition: all 4s ease-in;
+    animation: coracao 4s infinite;
+}
+.botao3 {
+    display: table;
+    margin: 110px auto;
+    
+}
+.botao3 button {
+    width: 140px;
+    height: 50px;
+    background-image: linear-gradient(to right, #ff0000, #a10202);
+    text-align: center;
+    font-family: "Roboto", serif;
+    color: #F1AC2D;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+
+}
+.botao3 button:hover {
+    color: white;
+    background-image: none;
+    background-color: #810303;
+}
