@@ -7,22 +7,32 @@
         background-size: auto;
         opacity: 1;
     }
-    25%{
+    16%{
         background-size: 365px;
-        opacity: 0.8;
+        
     }
-    50%{
+    32%{
         background-size: auto;
         opacity: 1;
 
     }
-    75%{
-        background-size: 365px;
-        opacity: 0.8;
-    }
-    100%{
+    48%{
         background-size: auto;
         opacity: 1;
+    }
+    64%{
+        background-size: 365px;
+       
+    }
+    80%{
+        background-size: auto;
+        opacity: 1;
+
+    }
+    100%{
+        background-size: 365px;
+        
+
     }
     
 }
@@ -47,10 +57,12 @@
     width: 69px;
     height: 70px;
     float: left;
+    transition: all 0.15s ease-out;
 }
 .logo1 img:hover {
     width: 74px;
     height: 75px;
+    transition: all 0.15s ease-out;
 }
 .hiperlinks {
     width: 650px;
@@ -69,11 +81,13 @@
     color: #000;
     font-size: 22px;
     font-family: "Amatic SC", sans-serif;
+    transition: all 0.15s ease-out;
 }
 .hiperlinks a:hover {
     font-size: 23px;
     border-bottom: 2px solid #46DDE1;
     font-weight: bold;
+    transition: all 0.15s ease-out;
 
 }
 .conteudo {
@@ -138,8 +152,9 @@
     border-radius: 10px;
     font-size: 22px;
     border: 2px solid #810303;
-    box-shadow: 10px 5px 5px #666666;
+    box-shadow: 10px 5px 5px #46DDE1;
     cursor: pointer;
+    transition: all 0.2s ease-out;
 
 }
 .botao3 button:hover {
@@ -150,4 +165,5 @@
     background-color: rgba(255, 0, 0, 0.9);
     border: 2px solid #810303;
     font-weight: bold;
+    transition: all 0.2s ease-out;
 }
